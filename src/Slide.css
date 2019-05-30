@@ -1,0 +1,123 @@
+/*
+light:           #E9E5DA
+light highlight: #9597BD
+brand:           #915984
+dark highlight:  #6974AF
+dark:            #1F2542
+*/
+
+.slide {
+    display: grid;
+    justify-content: center;
+    place-items: center;
+    grid-template-areas:
+            'P T T'
+            'P S L'
+            'P D D';
+    grid-template-rows: 15vh 20vh auto;
+    grid-template-columns: fit-content(40vw) repeat(2, fit-content(20vw));
+    background-color: #5A8EA2;
+}
+
+.title {
+    grid-area: T;
+    color: #915984;
+    border: 3px solid #9597BD;
+    border-radius: 15px;
+    background: #E9E5DA;
+
+    text-align: center;
+    width: 100%;
+}
+
+.description {
+    grid-area: D;
+    color: #1F2542;
+    text-align: center;
+    font-size: calc(1rem + 0.5vw);
+
+    border: 3px solid #9597BD;
+    border-radius: 15px;
+    background: #E9E5DA;
+
+    align-self: stretch;
+}
+
+.image {
+    border: 3px solid #1F2542;
+    border-radius: 30px;
+    grid-area: P;
+    object-fit: cover;
+    object-position: left;
+    max-width: 80%;
+    min-height: 60vh;
+}
+
+.link-button {
+    display: inline-block;
+    text-decoration: none;
+    border: 3px solid #1F2542;
+    border-radius: 5px;
+    padding: 3px;
+    background-color: #6974AF;
+
+    transition: background .2s;
+
+    color: #1F2542;
+    font-family: serif;
+    font-weight: bold;
+    font-size: calc(12px + 1.2vw);
+
+    width: calc(5rem + 5vw);
+
+    text-align: center;
+}
+
+.active-link:hover {
+    background-color: #9597BD;
+}
+
+.no-link {
+    text-decoration: line-through;
+    background-color: #9597BD;
+}
+
+.link-button:nth-of-type(1) {
+    grid-area: S;
+}
+
+.link-button:nth-of-type(2) {
+    grid-area: L;
+}
+
+.svg {
+    width: 2rem;
+    height: 2rem;
+}
+
+@media only screen and (orientation: portrait) {
+    .slide {
+        grid-template-areas:
+                'T T'
+                'S L'
+                'P P'
+                'D D';
+        grid-template-rows: 10vh 8vh min-content auto;
+        grid-template-columns: 40% 40%;
+        grid-gap: 10px;
+    }
+
+    .image {
+        max-width: 70vw;
+        min-height: 40vh;
+    }
+
+    .link-button:nth-of-type(1) {
+        justify-self: right;
+    }
+
+    .link-button:nth-of-type(2) {
+        justify-self: left;
+    }
+}
+

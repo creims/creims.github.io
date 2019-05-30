@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.73bef8b3.chunk.css",
+    "main.js": "/static/js/main.daca0263.chunk.js",
+    "main.js.map": "/static/js/main.daca0263.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.a68ccf2f.chunk.js": "/static/js/2.a68ccf2f.chunk.js",
+    "static/js/2.a68ccf2f.chunk.js.map": "/static/js/2.a68ccf2f.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.9f5ca18c462b16bfbf099ed2483de5a7.js": "/precache-manifest.9f5ca18c462b16bfbf099ed2483de5a7.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.73bef8b3.chunk.css.map": "/static/css/main.73bef8b3.chunk.css.map",
+    "static/media/ban.svg": "/static/media/ban.5a5bb5d2.svg",
+    "static/media/chessamateur.png": "/static/media/chessamateur.e0f59168.png",
+    "static/media/chordchart.png": "/static/media/chordchart.60ec398d.png",
+    "static/media/external-link.svg": "/static/media/external-link.97cf8ba5.svg",
+    "static/media/fork.svg": "/static/media/fork.214a3f6d.svg",
+    "static/media/fractaltree.png": "/static/media/fractaltree.462854bd.png",
+    "static/media/fuwahex.png": "/static/media/fuwahex.f462c5b7.png",
+    "static/media/greeting.png": "/static/media/greeting.074e8039.png",
+    "static/media/metronome.png": "/static/media/metronome.e382e12b.png",
+    "static/media/rmlparse.png": "/static/media/rmlparse.cac8c34c.png"
+  }
+}
